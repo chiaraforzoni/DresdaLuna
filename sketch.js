@@ -91,6 +91,17 @@ image(moon,  width/6 + s, height/3 - s, 70, 70);
 noStroke();
 fill('#050E30');
 rect(0,484,1040,483);
+    
+if(bombs.length > 3) {
+    //esempio di 3
+        stroke(255);
+        fill(0, 0, 0);
+        rect(0, 0, windowWidth, windowHeight);
+        textSize(32);
+        fill(255);
+        text("Remember dresda", windowWidth / 3, windowHeight / 3);
+        
+    }
 }
 
 function mouseReleased() {
